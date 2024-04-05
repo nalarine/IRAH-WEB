@@ -2006,6 +2006,12 @@ a:focus {
 
 .contact-form-container {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding-bottom: 15%;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-right: 5%;
+    background: #095c1d;
+    align-items: center;
 }
 
 .contact-form-container form {
@@ -2013,7 +2019,7 @@ a:focus {
 }
 
 .contact-form-container h2 {
-    color: #333;
+    color: #ffffff;
 }
 
 .contact-form-container input[type="text"],
@@ -2042,4 +2048,32 @@ a:focus {
 .contact-form-container button[type="submit"]:hover {
     background-color: #45a049;
 }
+
+.contact-form-container {
+    margin-bottom: 30px;
+}
+
+.btn-oval {
+    border-radius: 50px; /* Make the button oval */
+}
+
+/* Animation effect for the button */
+.animate__pulse {
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
 

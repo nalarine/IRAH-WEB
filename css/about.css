@@ -718,3 +718,36 @@ a:focus {
     }
 }
 
+.contact-form-container {
+    background-color: #ffffff; /* Set background color */
+    padding: 20px; /* Add padding */
+    border-radius: 10px; /* Add border radius */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+.contact-form-container h2 {
+    margin-bottom: 20px; /* Add margin bottom to the heading */
+}
+
+.contact-form-container form {
+    margin-bottom: 3; /* Remove margin bottom from the form */
+}
+
+.contact-form-container .form-control {
+    border-radius: 5px; /* Add border radius to form inputs */
+}
+
+.contact-form-container .form-select {
+    border-radius: 5px; /* Add border radius to form select */
+}
+
+.contact-form-container textarea {
+    border-radius: 5px; /* Add border radius to textarea */
+}
+
+/* Add margin bottom to the container */
+.contact-form-container {
+    margin-bottom: 30px;
+}
+
+
