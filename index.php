@@ -206,49 +206,86 @@
 			<!-- Feature End-->
 
 
-	   <!-- About Start -->
-		<div class="about wow fadeInUp" data-wow-delay="0.1s">
-			<div class="container">
-				<div class="row align-items-center">
-					<div class="col-lg-5 col-md-6">
-						<div class="about-img">
-							<div class="row">
-								<div class="col-6">
-									<img src="img/mango14.png" alt="Image">
+			<!-- About Start -->
+				<div class="about wow fadeInUp" data-wow-delay="0.1s">
+					<div class="container">
+						<div class="row align-items-center">
+							<div class="col-lg-5 col-md-6">
+								<div class="about-img">
+									<div class="row">
+										<div class="col-6">
+											<img src="img/mango14.png" alt="Image">
+										</div>
+										<div class="col-6">
+											<img src="img/Mango17.png" alt="Image">
+										</div>
+										<div class="col-6">
+											<img src="img/mangotree10.png" alt="Image">
+										</div>
+										<div class="col-6">
+											<img src="img/Mango16.png" alt="Image">
+										</div>
+									</div>
 								</div>
-								<div class="col-6">
-									<img src="img/Mango17.png" alt="Image">
+							</div>
+							<div class="col-lg-7 col-md-6">
+								<div class="section-header text-left">
+									<p>Welcome to Builderz</p>
+									<h2>25 Years Experience</h2>
 								</div>
-								<div class="col-6">
-									<img src="img/mangotree10.png" alt="Image">
-								</div>
-								<div class="col-6">
-									<img src="img/Mango16.png" alt="Image">
+								<div class="about-text">
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
+									</p>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum at lacus non blandit.
+									</p>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-7 col-md-6">
-						<div class="section-header text-left">
-							<p>Welcome to Builderz</p>
-							<h2>25 Years Experience</h2>
-						</div>
-						<div class="about-text">
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
-							</p>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum at lacus non blandit.
-							</p>
-							<a class="btn" href="">Learn More</a>
-						</div>
-					</div>
+				</div>
+			<!-- About End -->
+
+			<!-- Slider Start -->
+			<div class="logos wow fadeInUp" data-wow-delay="0.1s">
+				<h2>Solution Partners</h2>
+				<div class="logos-slide">
+					<img src="img/logo/acer.png" alt="">
+					<img src="img/logo/alcatel.png" alt="">
+					<img src="img/logo/avigilon.png" alt="">
+					<img src="img/logo/belden.png" alt="">
+					<img src="img/logo/dahua.png" alt="">
+					<img src="img/logo/entrypass.png" alt="">
+					<img src="img/logo/hcl.png" alt="">
+					<img src="img/logo/honeywell.png" alt="">
+					<img src="img/logo/litech.png" alt="">
+					<img src="img/logo/lscs.png" alt="">
+					<img src="img/logo/nspire.png" alt="">
+					<img src="img/logo/siemens.png" alt="">
+					<img src="img/logo/tuya.png" alt="">
 				</div>
 			</div>
-		</div>
-		<!-- About End -->
 
-
+			<div class="logos2 wow fadeInUp" data-wow-delay="0.3s">
+				<h2>Clients as Subcontractors</h2>
+				<div class="logos-slide2">
+					<img src="img/logo/stone.png" alt="">
+					<img src="img/logo/beta.png" alt="">
+					<img src="img/logo/pacific.png" alt="">
+					<img src="img/logo/ht.png" alt="">
+					<img src="img/logo/datem.png" alt="">
+					<img src="img/logo/megawide.png" alt="">
+					<img src="img/logo/mandani.png" alt="">
+					<img src="img/logo/clara.png" alt="">
+					<img src="img/logo/sanmig.png" alt="">
+					<img src="img/logo/coke.png" alt="">
+					<img src="img/logo/gen.png" alt="">
+					<img src="img/logo/jti.png" alt="">
+					<img src="img/logo/dm.png" alt="">
+				</div>
+			</div>
+			<!-- Slider End -->
 
 			<!-- Fact Start -->
 			<div class="fact">
@@ -731,5 +768,16 @@
 				});
 			});
 		</script>
+
+		<script>
+			var copy = document.querySelector(".logos-slide").cloneNode(true);
+			document.querySelector(".logos").appendChild(copy);
+
+			var copy = document.querySelector(".logos-slide2").cloneNode(true);
+			document.querySelector(".logos2").appendChild(copy);
+		</script>
+
+
+
 	</body>
 </html>
