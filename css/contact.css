@@ -862,7 +862,7 @@ a:focus {
 .contact-form-container {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     padding: 4%;
-    padding-bottom: 24%;
+    padding-bottom: 10%;
 }
 
 .contact-form-container form {
@@ -870,7 +870,7 @@ a:focus {
 }
 
 .contact-form-container h2 {
-    color: #ffffff;
+    color: #000000;
 }
 
 .contact-form-container input[type="text"],

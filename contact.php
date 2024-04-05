@@ -118,22 +118,22 @@
 				</div>
 			</div>
 			<!-- Nav Bar End -->
-  <!-- Breadcrumb Block -->
-  <section class="mt-5">
-    <div class="bg-light py-5">
-      <div class="container">
-        <div class="d-flex justify-content-between">
-          <h1 class="fw-bold">Contact us</h1>
-          <nav class="pt-3" style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a class="nav-link" href="#">Home</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Contact</li>
-            </ol>
-          </nav>
-        </div>
-      </div>
-    </div>
-  </section>
+
+			<!-- Page Header Start -->
+            <div class="page-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2>Contact Us</h2>
+                        </div>
+                        <div class="col-12">
+                            <a href="">Home</a>
+                            <a href="">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Page Header End -->
 
   <main>
     <div class="container py-5">
@@ -145,10 +145,10 @@
               <div class="aos-item__inner">
                 <div class="bg-light hvr-shutter-out-horizontal d-block p-3">
                   <div class="d-flex justify-content-start">
-                    <i class="fa-solid fa-envelope h3 pe-2"></i>
+                    <img src="gmail.png" style="height: 25px; width: 25px; margin-right: 8px">
                     <span class="h5">Email</span>
                   </div>
-                  <span>example@domain.com</span>
+                  <span>irah@irahsolutions.com</span>
                 </div>
               </div>
             </div>
@@ -156,19 +156,19 @@
               <div class="aos-item__inner">
                 <div class="bg-light hvr-shutter-out-horizontal d-block p-3">
                   <div class="d-flex justify-content-start">
-                    <i class="fa-solid fa-phone h3 pe-2"></i>
+                    <img src="phone.png" style="height: 25px; width: 25px; margin-right: 10px">
                     <span class="h5">Phone</span>
                   </div>
-                  <span>+0123456789, +9876543210</span>
+                  <span>02-872-23581, 0908-8994330</span>
                 </div>
               </div>
             </div>
           </div>
-          <div class="aos-item mt-4" data-aos="fade-up" data-aos-delay="600">
+          <div class="aos-item mt-4" data-aos="fade-up" data-aos-delay="600" style="width: 1050">
             <div class="aos-item__inner">
             <div class="bg-light hvr-shutter-out-horizontal d-block p-3">
             <div class="d-flex justify-content-start">
-                <i class="fa-solid fa-location-pin h3 pe-2"></i>
+                <img src="location.png" style="height: 35px; width: 35px; margin-right: 2px">
                 <span class="h5">Office location</span>
             </div>
             <span>Unit 201 AC Bldg Sct. Rallos st, corner Sct. Ybardolaza, Quezon City, 1103 Metro Manila</span>
@@ -184,7 +184,7 @@
 
         <!-- Contact Form Block -->
         <div class="col-xl-6 order-xl-2">
-                        <div class="contact-form-container bg-light p-4 rounded">
+                        <div class="contact-form-container bg-light rounded">
                             <h2 class="pb-4">Leave a message</h2>
                             <form id="contact-form">
                                 <div class="row g-4">
@@ -201,15 +201,15 @@
                                         <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone Number" required>
                                     </div>
                                 </div>
-                                <div class="mb-3">
+                                <!-- <div class="mb-3">
                                     <select class="form-select" id="country" name="country" aria-label="Country" required>
                                         <option value="">Select Country</option>
                                         <option value="USA">USA</option>
                                         <option value="Non USA">Non USA</option>
                                     </select>
-                                </div>
+                                </div> -->
                                 <div class="mb-3">
-                                    <textarea class="form-control" id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                                    <textarea class="form-control" id="message" name="message" rows="10" placeholder="Your Message" required></textarea>
                                 </div>
                                 <button type="submit" class="btn btn-dark">Send Message</button>
                             </form>
