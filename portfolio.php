@@ -306,7 +306,7 @@
 				<div class="container copyright">
 					<div class="row">
 						<div class="col-md-6">
-							<p>&copy; 2022 <a href="https://freewebsitecode.com">Irah Solutions and Services Inc.</a>, All Right Reserved.</p>
+							<p>&copy; 2022 <a href="index.php">Irah Solutions and Services Inc.</a>, All Right Reserved.</p>
 						</div>
 						
 						<div class="col-md-6">
