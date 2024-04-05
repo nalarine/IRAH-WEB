@@ -870,7 +870,7 @@ a:focus {
 }
 
 .contact-form-container h2 {
-    color: #333;
+    color: #ffffff;
 }
 
 .contact-form-container input[type="text"],
@@ -899,3 +899,4 @@ a:focus {
 .contact-form-container button[type="submit"]:hover {
     background-color: #45a049;
 }
+

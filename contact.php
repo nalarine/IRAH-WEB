@@ -118,25 +118,22 @@
 				</div>
 			</div>
 			<!-- Nav Bar End -->
-
-			<!-- Page Header Start -->
-            <div class="page-header">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <h2>Contact Us</h2>
-                        </div>
-                        <div class="col-12">
-                            <a href="">Home</a>
-                            <a href="">Contact Us</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Page Header End -->
-
   <!-- Breadcrumb Block -->
-
+  <section class="mt-5">
+    <div class="bg-light py-5">
+      <div class="container">
+        <div class="d-flex justify-content-between">
+          <h1 class="fw-bold">Contact us</h1>
+          <nav class="pt-3" style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a class="nav-link" href="#">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Contact</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <main>
     <div class="container py-5">
@@ -187,7 +184,7 @@
 
         <!-- Contact Form Block -->
         <div class="col-xl-6 order-xl-2">
-                        <div class="contact-form-container bg-light rounded">
+                        <div class="contact-form-container bg-light p-4 rounded">
                             <h2 class="pb-4">Leave a message</h2>
                             <form id="contact-form">
                                 <div class="row g-4">
@@ -225,7 +222,7 @@
       <div class="footer wow fadeInUp" data-wow-delay="0.3s">
 				<div class="container">
 					<div class="row">
-					<div class="col-md-4 col-lg-3"> <!-- This column is for the logo -->
+					<div class="col-md-4 col-lg-3"> 
 						<div class="footer-logo">
 							<img src="img/irahborder.png" alt="Logo" class="footer-logo-img">
 						</div>
@@ -277,21 +274,6 @@
 				</div>
 			</div>
 			<!-- Footer End -->
-
-		<!-- JavaScript Libraries -->
-		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/wow/wow.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-        <script src="lib/isotope/isotope.pkgd.min.js"></script>
-        <script src="lib/lightbox/js/lightbox.min.js"></script>
-        <script src="lib/waypoints/waypoints.min.js"></script>
-        <script src="lib/counterup/counterup.min.js"></script>
-        <script src="lib/slick/slick.min.js"></script>
-
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
 </body>
 
 </html>
