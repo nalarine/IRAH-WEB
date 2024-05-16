@@ -282,8 +282,14 @@
 				</div>
 			</div>
 			<!-- Footer End -->
+<<<<<<< HEAD
 			    <!-- JavaScript Libraries -->
 				<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+=======
+
+			<!-- JavaScript Libraries -->
+			<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+>>>>>>> 4e0d2def7136f190087812bfeb6ac13c28527368
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
         <script src="lib/easing/easing.min.js"></script>
         <script src="lib/wow/wow.min.js"></script>
