@@ -141,7 +141,7 @@
         <!-- Contact Information Block -->
         <div class="col-xl-6">
           <div class="row row-cols-md-2 g-4">
-            <div class="aos-item" data-aos="fade-up" data-aos-delay="200">
+            <div class="kendrick" data-aos="fade-up" data-aos-delay="200">
               <div class="aos-item__inner">
                 <div class="bg-light hvr-shutter-out-horizontal d-block p-3">
                   <div class="d-flex justify-content-start">
@@ -152,7 +152,7 @@
                 </div>
               </div>
             </div>
-            <div class="aos-item" data-aos="fade-up" data-aos-delay="400">
+            <div class="kendrick" data-aos="fade-up" data-aos-delay="400">
               <div class="aos-item__inner">
                 <div class="bg-light hvr-shutter-out-horizontal d-block p-3">
                   <div class="d-flex justify-content-start">
@@ -164,7 +164,9 @@
               </div>
             </div>
           </div>
-          <div class="aos-item mt-4" data-aos="fade-up" data-aos-delay="600" style="width: 1050">
+		  <br>
+		  
+          <div class="drake" data-aos="fade-up" data-aos-delay="600" style="width: 1050">
             <div class="aos-item__inner">
             <div class="bg-light hvr-shutter-out-horizontal d-block p-3">
             <div class="d-flex justify-content-start">
@@ -175,7 +177,7 @@
         </div>
             </div>
           </div>
-          <div class="aos-item mt-4" data-aos="fade-up" data-aos-delay="800">
+          <div class="drake" data-aos="fade-up" data-aos-delay="800">
                             <div class="mt-4 w-100 aos-item__inner">
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15441.59660717259!2d121.02111498428441!3d14.633269275243453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b74c49a0b7d3%3A0x6864ca1b132ca23c!2sIRAH%20SOLUTIONS%20AND%20SERVICES%20INC.!5e0!3m2!1sen!2sph!4v1712269107664!5m2!1sen!2sph" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
@@ -280,23 +282,6 @@
 				</div>
 			</div>
 			<!-- Footer End -->
-			<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-		</div>
-
-        <!-- JavaScript Libraries -->
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/wow/wow.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-        <script src="lib/isotope/isotope.pkgd.min.js"></script>
-        <script src="lib/lightbox/js/lightbox.min.js"></script>
-        <script src="lib/waypoints/waypoints.min.js"></script>
-        <script src="lib/counterup/counterup.min.js"></script>
-        <script src="lib/slick/slick.min.js"></script>
-
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
 </body>
 
 </html>
