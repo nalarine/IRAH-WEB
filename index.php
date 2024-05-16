@@ -87,8 +87,8 @@
 			<div class="nav-bar">
 				<div class="container-fluid">
 					<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-						<a href="#" class="navbar-brand">MENU</a>
-						<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+						<a href="" class="navbar-brand">MENU</a>
+						<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="navbarCollapse">
 							<span class="navbar-toggler-icon"></span>
 						</button>
 
@@ -99,7 +99,7 @@
 								<a href="service.php" class="nav-item nav-link">Service</a>
 								<a href="portfolio.php" class="nav-item nav-link">Project</a>
 								<div class="nav-item dropdown">
-									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
+									<a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
 									<div class="dropdown-menu">
 										<a href="blog.php" class="dropdown-item">Blog Page</a>
 										<a href="single.php" class="dropdown-item">Single Page</a>
@@ -107,10 +107,10 @@
 								</div>
 								<a href="contact.php" class="nav-item nav-link">Contact</a>
 							</div>
-							<div class="ml-auto">
+							<!-- <div class="ml-auto">
 								<a class="btn" href="login.php">Login</a>
 								<a class="btn" href="login.php">Register</a>
-							</div>
+							</div> -->
 						</div>
 					</nav>
 				</div>
@@ -121,10 +121,10 @@
 			<!-- Carousel Start -->
 			<div id="carousel" class="carousel slide" data-ride="carousel">
 				<ol class="carousel-indicators">
-					<li data-target="#carousel" data-slide-to="0" class="active"></li>
-					<li data-target="#carousel" data-slide-to="1"></li>
-					<li data-target="#carousel" data-slide-to="2"></li>
-					<li data-target="#carousel" data-slide-to="3"></li>
+					<li data-target="carousel" data-slide-to="0" class="active"></li>
+					<li data-target="carousel" data-slide-to="1"></li>
+					<li data-target="carousel" data-slide-to="2"></li>
+					<li data-target="carousel" data-slide-to="3"></li>
 				</ol>
 				<div class="carousel-container">
 				<div class="carousel-inner">
@@ -151,11 +151,11 @@
 			</div>
 
 
-					<!-- <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+					<!-- <a class="carousel-control-prev" href="carousel" role="button" data-slide="prev">
 						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 						<span class="sr-only">Previous</span>
 					</a>
-					<a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+					<a class="carousel-control-next" href="carousel" role="button" data-slide="next">
 						<span class="carousel-control-next-icon" aria-hidden="true"></span>
 						<span class="sr-only">Next</span>
 					</a> -->
@@ -230,15 +230,12 @@
 							</div>
 							<div class="col-lg-7 col-md-6">
 								<div class="section-header text-left">
-									<p>Welcome to Builderz</p>
-									<h2>25 Years Experience</h2>
+									<p>Welcome to Irah Solutions Inc.</p>
+									<h2>3 Years Experience</h2>
 								</div>
 								<div class="about-text">
 									<p>
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
-									</p>
-									<p>
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum at lacus non blandit.
+										IRAH Solutions was founded in 2021 with a vision to provide innovative and efficient IT and engineering solutions to businesses nationwide. The company was started by a group of technology enthusiasts with a passion for creating impactful software and digital solutions. <br><br> Beginning as a small startup, IRAH Solutions quickly expanded its operations due to its commitment to quality and customer satisfaction. Today, it stands as a reputable player in the industry, known for delivering reliable and cutting-edge solutions.
 									</p>
 								</div>
 							</div>
@@ -354,7 +351,7 @@
 						<div class="services-container">
 
 							<div class="service-box">
-								<a href="services#cable">
+								<a href="">
 									<div class="service-icon">
 									<i class="fas fa-ethernet"></i>
 									</div>
@@ -366,7 +363,7 @@
 							</div>
 
 							<div class="service-box">
-								<a href="services#syscon">
+								<a href="">
 									<div class="service-icon">
 									<i class="fas fa-user-lock"></i>
 									</div>
@@ -379,7 +376,7 @@
 							</div>
 
 							<div class="service-box">
-								<a href="services#fdas">
+								<a href="">
 									<div class="service-icon">
 									<i class="fas fa-fire-alt"></i>
 									</div>
@@ -391,7 +388,7 @@
 							</div>
 
 							<div class="service-box">
-								<a href="services#pabgm">
+								<a href="">
 									<div class="service-icon">
 									<i class="fas fa-headphones-alt"></i>
 									</div>
@@ -403,7 +400,7 @@
 							</div>
 
 							<div class="service-box">
-								<a href="services#av">
+								<a href="">
 									<div class="service-icon">
 									<i class="fas fa-icons"></i>
 									</div>
@@ -415,7 +412,7 @@
 							</div>
 
 							<div class="service-box">
-								<a href="services#parking">
+								<a href="">
 									<div class="service-icon">
 									<i class="fas fa-traffic-light"></i>
 									</div>
@@ -427,7 +424,7 @@
 							</div>
 
 							<div class="service-box">
-								<a href="services#building">
+								<a href="">
 									<div class="service-icon">
 									<i class="fas fa-city"></i>
 									</div>
@@ -439,7 +436,7 @@
 							</div>
 
 							<div class="service-box">
-								<a href="services#ict">
+								<a href="">
 									<div class="service-icon">
 									<i class="fas fa-laptop-code"></i>
 									</div>
@@ -546,11 +543,11 @@
 							<div id="accordion-1">
 								<div class="card wow fadeInLeft" data-wow-delay="0.1s">
 									<div class="card-header">
-										<a class="card-link collapsed" data-toggle="collapse" href="#collapseOne">
+										<a class="card-link collapsed" data-toggle="collapse" href="collapseOne">
 											Lorem ipsum dolor sit amet?
 										</a>
 									</div>
-									<div id="collapseOne" class="collapse" data-parent="#accordion-1">
+									<div id="collapseOne" class="collapse" data-parent="accordion-1">
 										<div class="card-body">
 											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
 										</div>
@@ -558,11 +555,11 @@
 								</div>
 								<div class="card wow fadeInLeft" data-wow-delay="0.2s">
 									<div class="card-header">
-										<a class="card-link collapsed" data-toggle="collapse" href="#collapseTwo">
+										<a class="card-link collapsed" data-toggle="collapse" href="collapseTwo">
 											Lorem ipsum dolor sit amet?
 										</a>
 									</div>
-									<div id="collapseTwo" class="collapse" data-parent="#accordion-1">
+									<div id="collapseTwo" class="collapse" data-parent="accordion-1">
 										<div class="card-body">
 											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
 										</div>
@@ -570,11 +567,11 @@
 								</div>
 								<div class="card wow fadeInLeft" data-wow-delay="0.3s">
 									<div class="card-header">
-										<a class="card-link collapsed" data-toggle="collapse" href="#collapseThree">
+										<a class="card-link collapsed" data-toggle="collapse" href="collapseThree">
 											Lorem ipsum dolor sit amet?
 										</a>
 									</div>
-									<div id="collapseThree" class="collapse" data-parent="#accordion-1">
+									<div id="collapseThree" class="collapse" data-parent="accordion-1">
 										<div class="card-body">
 											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
 										</div>
@@ -582,11 +579,11 @@
 								</div>
 								<div class="card wow fadeInLeft" data-wow-delay="0.4s">
 									<div class="card-header">
-										<a class="card-link collapsed" data-toggle="collapse" href="#collapseFour">
+										<a class="card-link collapsed" data-toggle="collapse" href="collapseFour">
 											Lorem ipsum dolor sit amet?
 										</a>
 									</div>
-									<div id="collapseFour" class="collapse" data-parent="#accordion-1">
+									<div id="collapseFour" class="collapse" data-parent="accordion-1">
 										<div class="card-body">
 											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
 										</div>
@@ -594,11 +591,11 @@
 								</div>
 								<div class="card wow fadeInLeft" data-wow-delay="0.5s">
 									<div class="card-header">
-										<a class="card-link collapsed" data-toggle="collapse" href="#collapseFive">
+										<a class="card-link collapsed" data-toggle="collapse" href="collapseFive">
 											Lorem ipsum dolor sit amet?
 										</a>
 									</div>
-									<div id="collapseFive" class="collapse" data-parent="#accordion-1">
+									<div id="collapseFive" class="collapse" data-parent="accordion-1">
 										<div class="card-body">
 											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
 										</div>
@@ -610,11 +607,11 @@
 							<div id="accordion-2">
 								<div class="card wow fadeInRight" data-wow-delay="0.1s">
 									<div class="card-header">
-										<a class="card-link collapsed" data-toggle="collapse" href="#collapseSix">
+										<a class="card-link collapsed" data-toggle="collapse" href="collapseSix">
 											Lorem ipsum dolor sit amet?
 										</a>
 									</div>
-									<div id="collapseSix" class="collapse" data-parent="#accordion-2">
+									<div id="collapseSix" class="collapse" data-parent="accordion-2">
 										<div class="card-body">
 											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
 										</div>
@@ -622,11 +619,11 @@
 								</div>
 								<div class="card wow fadeInRight" data-wow-delay="0.2s">
 									<div class="card-header">
-										<a class="card-link collapsed" data-toggle="collapse" href="#collapseSeven">
+										<a class="card-link collapsed" data-toggle="collapse" href="collapseSeven">
 											Lorem ipsum dolor sit amet?
 										</a>
 									</div>
-									<div id="collapseSeven" class="collapse" data-parent="#accordion-2">
+									<div id="collapseSeven" class="collapse" data-parent="accordion-2">
 										<div class="card-body">
 											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
 										</div>
@@ -634,11 +631,11 @@
 								</div>
 								<div class="card wow fadeInRight" data-wow-delay="0.3s">
 									<div class="card-header">
-										<a class="card-link collapsed" data-toggle="collapse" href="#collapseEight">
+										<a class="card-link collapsed" data-toggle="collapse" href="collapseEight">
 											Lorem ipsum dolor sit amet?
 										</a>
 									</div>
-									<div id="collapseEight" class="collapse" data-parent="#accordion-2">
+									<div id="collapseEight" class="collapse" data-parent="accordion-2">
 										<div class="card-body">
 											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
 										</div>
@@ -646,11 +643,11 @@
 								</div>
 								<div class="card wow fadeInRight" data-wow-delay="0.4s">
 									<div class="card-header">
-										<a class="card-link collapsed" data-toggle="collapse" href="#collapseNine">
+										<a class="card-link collapsed" data-toggle="collapse" href="collapseNine">
 											Lorem ipsum dolor sit amet?
 										</a>
 									</div>
-									<div id="collapseNine" class="collapse" data-parent="#accordion-2">
+									<div id="collapseNine" class="collapse" data-parent="accordion-2">
 										<div class="card-body">
 											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
 										</div>
@@ -658,11 +655,11 @@
 								</div>
 								<div class="card wow fadeInRight" data-wow-delay="0.5s">
 									<div class="card-header">
-										<a class="card-link collapsed" data-toggle="collapse" href="#collapseTen">
+										<a class="card-link collapsed" data-toggle="collapse" href="collapseTen">
 											Lorem ipsum dolor sit amet?
 										</a>
 									</div>
-									<div id="collapseTen" class="collapse" data-parent="#accordion-2">
+									<div id="collapseTen" class="collapse" data-parent="accordion-2">
 										<div class="card-body">
 											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
 										</div>
@@ -732,7 +729,7 @@
 			</div>
 			<!-- Footer End -->
 
-			<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+			<a href="" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 		</div>
 
 		<!-- JavaScript Libraries -->
@@ -758,11 +755,11 @@
 					var videoSrc = $(this).data('src');
 					var video = document.getElementById('video');
 					video.src = videoSrc;
-					$('#videoModal').modal('show');
+					$('videoModal').modal('show');
 				});
 
 				// When the modal is closed, pause the video
-				$('#videoModal').on('hidden.bs.modal', function (e) {
+				$('videoModal').on('hidden.bs.modal', function (e) {
 					var video = document.getElementById('video');
 					video.pause();
 				});
