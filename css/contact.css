@@ -865,12 +865,24 @@ a:focus {
     padding-bottom: 10%;
 }
 
+.kendrick{
+    padding: 2px;
+    padding-bottom: 2px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
 .contact-form-container form {
     color: #333;
 }
 
 .contact-form-container h2 {
     color: #000000;
+}
+
+.drake{
+    
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);    
+
 }
 
 .contact-form-container input[type="text"],
@@ -920,6 +932,6 @@ a:focus {
 
 
 .sabrina:hover{ 
-    background-color: #FFB000;
+    background-color: #ffffff;
     color: #095c1d;
 }
