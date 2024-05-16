@@ -140,10 +140,10 @@
       <div class="row g-5">
         <!-- Contact Information Block -->
         <div class="col-xl-6">
-          <div class="row row-cols-md-2 g-4">
+          <div class="row row-cols-md-2 g-6">
             <div class="kendrick" data-aos="fade-up" data-aos-delay="200">
               <div class="aos-item__inner">
-                <div class="bg-light hvr-shutter-out-horizontal d-block p-3">
+                <div class="bg-light hvr-shutter-out-horizontal p-3">
                   <div class="d-flex justify-content-start">
                     <img src="gmail.png" style="height: 25px; width: 25px; margin-right: 8px">
                     <span class="h5">Email</span>
@@ -154,7 +154,7 @@
             </div>
             <div class="kendrick" data-aos="fade-up" data-aos-delay="400">
               <div class="aos-item__inner">
-                <div class="bg-light hvr-shutter-out-horizontal d-block p-3">
+                <div class="bg-light hvr-shutter-out-horizontals p-3">
                   <div class="d-flex justify-content-start">
                     <img src="phone.png" style="height: 25px; width: 25px; margin-right: 10px">
                     <span class="h5">Phone</span>
@@ -282,6 +282,20 @@
 				</div>
 			</div>
 			<!-- Footer End -->
+			    <!-- JavaScript Libraries -->
+				<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/slick/slick.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
 </body>
 
 </html>
