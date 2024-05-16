@@ -174,7 +174,7 @@
 								</div>
 								<div class="feature-text">
 									<h3>Expert Worker</h3>
-									<p>Lorem ipsum dolor sit amet elit. Phasus nec pretim ornare velit non</p>
+									<p>Quiality wise products and well produced services for the consumers.</p>
 								</div>
 							</div>
 						</div>
@@ -185,7 +185,7 @@
 								</div>
 								<div class="feature-text">
 									<h3>Quality Work</h3>
-									<p>Lorem ipsum dolor sit amet elit. Phasus nec pretim ornare velit non</p>
+									<p>Extent work that offers a range of Engineering services.</p>
 								</div>
 							</div>
 						</div>
@@ -196,7 +196,7 @@
 								</div>
 								<div class="feature-text">
 									<h3>24/7 Support</h3>
-									<p>Lorem ipsum dolor sit amet elit. Phasus nec pretim ornare velit non</p>
+									<p>Offer comprehensive post-project support and maintenance to ensure your solutions operate smoothly.</p>
 								</div>
 							</div>
 						</div>
@@ -547,66 +547,66 @@
 								<div class="card wow fadeInLeft" data-wow-delay="0.1s">
 									<div class="card-header">
 										<a class="card-link collapsed" data-toggle="collapse" href="#collapseOne">
-											Lorem ipsum dolor sit amet?
+										What services does Irah Solutions offer?
 										</a>
 									</div>
 									<div id="collapseOne" class="collapse" data-parent="#accordion-1">
 										<div class="card-body">
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+										We offer a range of IT and engineering services including construction materials, auxiliary business, electro-mechanical services, and specialized building management systems.
 										</div>
 									</div>
 								</div>
 								<div class="card wow fadeInLeft" data-wow-delay="0.2s">
 									<div class="card-header">
 										<a class="card-link collapsed" data-toggle="collapse" href="#collapseTwo">
-											Lorem ipsum dolor sit amet?
+										How can I get a quote for my project?
 										</a>
 									</div>
 									<div id="collapseTwo" class="collapse" data-parent="#accordion-1">
 										<div class="card-body">
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+										You can contact us through our website's contact form or email us directly at info@irahsolutions.com. Our team will respond with a detailed quote and project plan.
 										</div>
 									</div>
 								</div>
 								<div class="card wow fadeInLeft" data-wow-delay="0.3s">
 									<div class="card-header">
 										<a class="card-link collapsed" data-toggle="collapse" href="#collapseThree">
-											Lorem ipsum dolor sit amet?
+										Do you provide support after project completion?
 										</a>
 									</div>
 									<div id="collapseThree" class="collapse" data-parent="#accordion-1">
 										<div class="card-body">
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+										Yes, we offer comprehensive post-project support and maintenance to ensure your solutions operate smoothly.
 										</div>
 									</div>
 								</div>
 								<div class="card wow fadeInLeft" data-wow-delay="0.4s">
 									<div class="card-header">
 										<a class="card-link collapsed" data-toggle="collapse" href="#collapseFour">
-											Lorem ipsum dolor sit amet?
+										What industries do you specialize in?
 										</a>
 									</div>
 									<div id="collapseFour" class="collapse" data-parent="#accordion-1">
 										<div class="card-body">
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+										We have extensive experience in various industries including construction, real estate, healthcare, finance, retail, and education.
 										</div>
 									</div>
 								</div>
 								<div class="card wow fadeInLeft" data-wow-delay="0.5s">
 									<div class="card-header">
 										<a class="card-link collapsed" data-toggle="collapse" href="#collapseFive">
-											Lorem ipsum dolor sit amet?
+										How long does it take to complete a project?
 										</a>
 									</div>
 									<div id="collapseFive" class="collapse" data-parent="#accordion-1">
 										<div class="card-body">
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+										The timeline varies depending on the complexity and scope of the project. After an initial consultation, we provide an estimated timeline tailored to your specific needs.
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6">
+						<!-- <div class="col-md-6">
 							<div id="accordion-2">
 								<div class="card wow fadeInRight" data-wow-delay="0.1s">
 									<div class="card-header">
@@ -670,7 +670,7 @@
 								</div>
 							</div>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 			<!-- FAQs End -->
@@ -721,7 +721,7 @@
 				<div class="container copyright">
 					<div class="row">
 						<div class="col-md-6">
-							<p>&copy; 2022 <a href="index.php">Irah Solutions and Services Inc.</a>, All Right Reserved.</p>
+							<p>&copy; 2022 <a href="https://freewebsitecode.com">Irah Solutions and Services Inc.</a>, All Right Reserved.</p>
 						</div>
 						
 						<div class="col-md-6">
@@ -731,6 +731,7 @@
 				</div>
 			</div>
 			<!-- Footer End -->
+
 
 			<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 		</div>
