@@ -107,10 +107,10 @@
 								</div>
 								<a href="contact.php" class="nav-item nav-link">Contact</a>
 							</div>
-							<div class="ml-auto">
+							<!-- <div class="ml-auto">
 								<a class="btn" href="#">Login</a>
 								<a class="btn" href="#">Register</a>
-							</div>
+							</div> -->
 						</div>
 					</nav>
 				</div>

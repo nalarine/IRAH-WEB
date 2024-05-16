@@ -543,13 +543,8 @@
 							<div id="accordion-1">
 								<div class="card wow fadeInLeft" data-wow-delay="0.1s">
 									<div class="card-header">
-<<<<<<< HEAD
 										<a class="card-link collapsed" data-toggle="collapse" href="#collapseOne">
 										What services does Irah Solutions offer?
-=======
-										<a class="card-link collapsed" data-toggle="collapse" href="collapseOne">
-											Lorem ipsum dolor sit amet?
->>>>>>> bd6d473974c3691cffa340236eeba8352c898067
 										</a>
 									</div>
 									<div id="collapseOne" class="collapse" data-parent="accordion-1">
@@ -560,13 +555,8 @@
 								</div>
 								<div class="card wow fadeInLeft" data-wow-delay="0.2s">
 									<div class="card-header">
-<<<<<<< HEAD
 										<a class="card-link collapsed" data-toggle="collapse" href="#collapseTwo">
 										How can I get a quote for my project?
-=======
-										<a class="card-link collapsed" data-toggle="collapse" href="collapseTwo">
-											Lorem ipsum dolor sit amet?
->>>>>>> bd6d473974c3691cffa340236eeba8352c898067
 										</a>
 									</div>
 									<div id="collapseTwo" class="collapse" data-parent="accordion-1">
@@ -577,13 +567,8 @@
 								</div>
 								<div class="card wow fadeInLeft" data-wow-delay="0.3s">
 									<div class="card-header">
-<<<<<<< HEAD
 										<a class="card-link collapsed" data-toggle="collapse" href="#collapseThree">
 										Do you provide support after project completion?
-=======
-										<a class="card-link collapsed" data-toggle="collapse" href="collapseThree">
-											Lorem ipsum dolor sit amet?
->>>>>>> bd6d473974c3691cffa340236eeba8352c898067
 										</a>
 									</div>
 									<div id="collapseThree" class="collapse" data-parent="accordion-1">
@@ -594,13 +579,8 @@
 								</div>
 								<div class="card wow fadeInLeft" data-wow-delay="0.4s">
 									<div class="card-header">
-<<<<<<< HEAD
 										<a class="card-link collapsed" data-toggle="collapse" href="#collapseFour">
 										What industries do you specialize in?
-=======
-										<a class="card-link collapsed" data-toggle="collapse" href="collapseFour">
-											Lorem ipsum dolor sit amet?
->>>>>>> bd6d473974c3691cffa340236eeba8352c898067
 										</a>
 									</div>
 									<div id="collapseFour" class="collapse" data-parent="accordion-1">
@@ -611,13 +591,8 @@
 								</div>
 								<div class="card wow fadeInLeft" data-wow-delay="0.5s">
 									<div class="card-header">
-<<<<<<< HEAD
 										<a class="card-link collapsed" data-toggle="collapse" href="#collapseFive">
 										How long does it take to complete a project?
-=======
-										<a class="card-link collapsed" data-toggle="collapse" href="collapseFive">
-											Lorem ipsum dolor sit amet?
->>>>>>> bd6d473974c3691cffa340236eeba8352c898067
 										</a>
 									</div>
 									<div id="collapseFive" class="collapse" data-parent="accordion-1">
@@ -754,12 +729,8 @@
 			</div>
 			<!-- Footer End -->
 
-<<<<<<< HEAD
 
 			<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-=======
-			<a href="" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
->>>>>>> bd6d473974c3691cffa340236eeba8352c898067
 		</div>
 
 		<!-- JavaScript Libraries -->
