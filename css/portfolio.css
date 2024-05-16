@@ -531,11 +531,11 @@ a:focus {
 }
 
 .feature .col-md-12 {
-    background: #095c1d;
+    background: #030f27;
 }
     
 .feature .col-md-12:nth-child(2n) {
-    color: #095c1d;
+    color: #030f27;
     background: #FFB000;
 }
 
@@ -574,7 +574,7 @@ a:focus {
     height: 79px;
     top: -18px;
     left: -9px;
-    background: #095c1d;
+    background: #030f27;
     border-radius: 60px;
     z-index: 2;
 }
@@ -1113,7 +1113,7 @@ a:focus {
     position: relative;
 }
 
-/* .faqs .row::after {
+.faqs .row::after {
     position: absolute;
     content: "";
     width: 1px;
@@ -1121,11 +1121,10 @@ a:focus {
     top: 0;
     left: calc(50% - .5px);
     background: #FFB000;
-} */
+}
 
 .faqs #accordion-1 {
     padding-right: 15px;
-    width: 200%;
 }
 
 .faqs #accordion-2 {
