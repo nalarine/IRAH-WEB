@@ -212,13 +212,10 @@
             </div>
         </main>
 
-			<!-- Footer Start -->
-			<div class="footer wow fadeInUp" data-wow-delay="0.3s">
-  <!-- Footer Start -->
-  <div class="footer wow fadeInUp" data-wow-delay="0.3s">
+  	<!-- Footer Start -->
+	  <div class="footer wow fadeInUp" data-wow-delay="0.3s">
 				<div class="container">
 					<div class="row">
-					<div class="col-md-4 col-lg-3"> <!-- This column is for the logo -->
 					<div class="col-md-4 col-lg-3"> <!-- This column is for the logo -->
 						<div class="footer-logo">
 							<img src="img/irahborder.png" alt="Logo" class="footer-logo-img">
@@ -231,7 +228,6 @@
 							<p><i class="fa fa-phone-alt"></i>02-872-23581</p>
 							<p><i class="fa fa-phone-alt"></i>0908-8994330</p>
 							<p><i class="fa fa-envelope"></i>irah@irahsolutions.com</p>
-							<p><i class="fa fa-envelope"></i>irahsolutions@gmail.com</p>
 							<div class="footer-social">
 								<a href="https://www.facebook.com/profile.php?id=100064757267975"><i class="fab fa-facebook-f"></i></a>
 								<a href="https://www.youtube.com/@ISASITV"><i class="fab fa-youtube"></i></a>
@@ -268,7 +264,7 @@
 				<div class="container copyright">
 					<div class="row">
 						<div class="col-md-6">
-							<p>&copy; 2022 <a href="https://freewebsitecode.com">Irah Solutions and Services Inc.</a>, All Right Reserved.</p>
+							<p>&copy; 2022 <a href="index.php">Irah Solutions and Services Inc.</a>, All Right Reserved.</p>
 						</div>
 						
 						<div class="col-md-6">
@@ -278,7 +274,6 @@
 				</div>
 			</div>
 			<!-- Footer End -->
-
 
 			<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 		</div>
