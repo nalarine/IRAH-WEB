@@ -64,6 +64,49 @@ a:focus {
 /**********************************/
 /********** Top Bar CSS ***********/
 /**********************************/
+
+/* Logo styles */
+#top-logo img, #navbar-logo-placeholder img {
+    max-height: 70px; /* Maintain the same size for the logo */
+}
+
+#navbar-logo-placeholder {
+    display: none; /* Initially hidden */
+    align-items: center;
+}
+
+.nav-bar.nav-sticky #navbar-logo-placeholder {
+    display: flex; /* Ensure it's displayed when sticky */
+    transition: .3s;
+}
+
+.nav-bar {
+    position: relative;
+    background: #FFB000;
+    transition: .3s;
+}
+
+.nav-bar .container-fluid {
+    padding: 0;
+}
+
+.nav-bar.nav-sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-width: 1366px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+    z-index: 999;
+}
+
+.nav-bar .navbar {
+    height: 100%;
+    background: #095c1d !important;
+}
+
+/* Additional styling for the rest of the navbar */
+
+
 .top-bar {
     position: relative;
     height: 90px;

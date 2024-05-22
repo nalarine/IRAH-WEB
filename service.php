@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<title>IRAH SOLUTIONS</title>
@@ -36,7 +37,7 @@
 				<div class="container-fluid">
 					<div class="row align-items-center">
 						<div class="col-lg-4 col-md-12">
-							<div class="logo">
+							<div class="logo" id="top-logo">
 								<a href="index.html">
 									<img src="img/irahborder.png" alt="Logo">
 								</a>
@@ -75,6 +76,7 @@
 										<div class="top-bar-text">
 											<h3>Email Us</h3>
 											<p>irah@irahsolutions.com</p>
+											<p>irahsolutions@gmail.com</p>
 										</div>
 									</div>
 								</div>
@@ -86,42 +88,30 @@
 			<!-- Top Bar End -->
 
 			<!-- Nav Bar Start -->
-			<div class="nav-bar">
-				<div class="container-fluid">
-					<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-						<a href="#" class="navbar-brand">MENU</a>
-						<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-							<span class="navbar-toggler-icon"></span>
-						</button>
+<div class="nav-bar">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div id="navbar-logo-placeholder"></div>
+            <a href="" class="navbar-brand">MENU</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav mr-auto">
+                    <a href="index.php" class="nav-item nav-link ">Home</a>
+                    <a href="about.php" class="nav-item nav-link">About</a>
+                    <a href="service.php" class="nav-item nav-link active">Service</a>
+                    <a href="portfolio.php" class="nav-item nav-link">Project</a>
+                    <a href="contact.php" class="nav-item nav-link">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+<!-- Nav Bar End -->
 
-						<div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-							<div class="navbar-nav mr-auto">
-								<a href="index.php" class="nav-item nav-link">Home</a>
-								<a href="about.php" class="nav-item nav-link">About</a>
-								<a href="service.php" class="nav-item nav-link active">Service</a>
-								<a href="portfolio.php" class="nav-item nav-link">Project</a>
-								<div class="nav-item dropdown">
-									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
-									<div class="dropdown-menu">
-										<a href="blog.php" class="dropdown-item">Blog Page</a>
-										<a href="single.php" class="dropdown-item">Single Page</a>
-									</div>
-								</div>
-								<a href="contact.php" class="nav-item nav-link">Contact</a>
-							</div>
-							<!-- <div class="ml-auto">
-								<a class="btn" href="#">Login</a>
-								<a class="btn" href="#">Register</a>
-							</div> -->
-						</div>
-					</nav>
-				</div>
-			</div>
-			<!-- Nav Bar End -->
-			
-			
-			<!-- Page Header Start -->
-			<div class="page-header">
+<!-- Page Header Start -->
+<div class="page-header">
 				<div class="container">
 					<div class="row">
 						<div class="col-12">
@@ -279,7 +269,7 @@
                 </div>
             </div>
 			<!-- Service End -->
-		
+
 			<!-- Footer Start -->
 			<div class="footer wow fadeInUp" data-wow-delay="0.3s">
 				<div class="container">
@@ -326,7 +316,7 @@
 				<div class="container copyright">
 					<div class="row">
 						<div class="col-md-6">
-							<p>&copy; 2022 <a href="index.php">Irah Solutions and Services Inc.</a>, All Right Reserved.</p>
+							<p>&copy; 2022 <a href="https://freewebsitecode.com">Irah Solutions and Services Inc.</a>, All Right Reserved.</p>
 						</div>
 						
 						<div class="col-md-6">
@@ -336,6 +326,7 @@
 				</div>
 			</div>
 			<!-- Footer End -->
+
 
 			<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 		</div>
@@ -354,5 +345,60 @@
 
 		<!-- Template Javascript -->
 		<script src="js/main.js"></script>
+
+		<!-- Video Script -->
+		<script>
+			$(document).ready(function () {
+				// When btn-play is clicked, set video source and show modal
+				$('.btn-play').click(function() {
+					var videoSrc = $(this).data('src');
+					var video = document.getElementById('video');
+					video.src = videoSrc;
+					$('videoModal').modal('show');
+				});
+
+				// When the modal is closed, pause the video
+				$('videoModal').on('hidden.bs.modal', function (e) {
+					var video = document.getElementById('video');
+					video.pause();
+				});
+			});
+		</script>
+
+		<script>
+			var copy = document.querySelector(".logos-slide").cloneNode(true);
+			document.querySelector(".logos").appendChild(copy);
+
+			var copy = document.querySelector(".logos-slide2").cloneNode(true);
+			document.querySelector(".logos2").appendChild(copy);
+		</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const topLogo = document.getElementById('top-logo');
+        const navbarLogoPlaceholder = document.getElementById('navbar-logo-placeholder');
+        const navBar = document.querySelector('.nav-bar');
+
+        window.addEventListener('scroll', function () {
+            if (window.scrollY > 100) { // Adjust the scroll position threshold as needed
+                if (!navbarLogoPlaceholder.innerHTML) {
+                    navbarLogoPlaceholder.innerHTML = topLogo.innerHTML;
+                    topLogo.style.display = 'none';
+                }
+                navBar.classList.add('nav-sticky');
+            } else {
+                if (navbarLogoPlaceholder.innerHTML) {
+                    topLogo.innerHTML = navbarLogoPlaceholder.innerHTML;
+                    navbarLogoPlaceholder.innerHTML = '';
+                    topLogo.style.display = 'block';
+                }
+                navBar.classList.remove('nav-sticky');
+            }
+        });
+    });
+</script>
+
+
+
 	</body>
 </html>
