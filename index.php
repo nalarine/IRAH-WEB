@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>IRAH SOLUTIONS</title>
-		<meta content="width=device-width, initial-scale=1.0" name="viewport">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta content="Construction Company Website Template" name="keywords">
 		<meta content="Construction Company Website Template" name="description">
 
@@ -106,15 +106,50 @@
     </div>
 </div>
 <!-- Nav Bar End -->
+			<div class="nav-bar">
+				<div class="container-fluid">
+					<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+						<a href="#" class="navbar-brand">MENU</a>
+						<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+
+						<div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+							<div class="navbar-nav mr-auto">
+								<a href="index.php" class="nav-item nav-link active">Home</a>
+								<a href="about.php" class="nav-item nav-link">About</a>
+								<a href="service.php" class="nav-item nav-link">Service</a>
+								<a href="portfolio.php" class="nav-item nav-link">Project</a>
+								<div class="nav-item dropdown">
+									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
+									<div class="dropdown-menu">
+										<a href="blog.php" class="dropdown-item">Blog Page</a>
+										<a href="single.php" class="dropdown-item">Single Page</a>
+									</div>
+								</div>
+								<a href="contact.php" class="nav-item nav-link">Contact</a>
+							</div>
+							<!-- <div class="ml-auto">
+								<a class="btn" href="login.php">Login</a>
+								<a class="btn" href="login.php">Register</a>
+							</div> -->
+						</div>
+					</nav>
+				</div>
+			</div>
+			<!-- Nav Bar End -->
 
 
 			<!-- Carousel Start -->
 			<div id="carousel" class="carousel slide" data-ride="carousel">
 				<ol class="carousel-indicators">
-					<li data-target="carousel" data-slide-to="0" class="active"></li>
-					<li data-target="carousel" data-slide-to="1"></li>
-					<li data-target="carousel" data-slide-to="2"></li>
-					<li data-target="carousel" data-slide-to="3"></li>
+					<li data-target="#carousel" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel" data-slide-to="1"></li>
+					<li data-target="#carousel" data-slide-to="2"></li>
+					<li data-target="#carousel" data-slide-to="3"></li>
+					<li data-target="#carousel" data-slide-to="4"></li>
+					<li data-target="#carousel" data-slide-to="5"></li>
+					<li data-target="#carousel" data-slide-to="6"></li>
 				</ol>
 				<div class="carousel-container">
 				<div class="carousel-inner">
@@ -130,6 +165,15 @@
 					<div class="carousel-item">
 						<img src="img/carousel4.png" alt="Carousel Image">
 					</div>
+					<div class="carousel-item">
+						<img src="img/carousel5.jpg" alt="Carousel Image">
+					</div>
+					<div class="carousel-item">
+						<img src="img/carousel6.jpg" alt="Carousel Image">
+					</div>
+					<div class="carousel-item">
+						<img src="img/carousel7.jpg" alt="Carousel Image">
+					</div>
 				</div>
 
 				<!-- Static text overlay -->
@@ -141,17 +185,16 @@
 			</div>
 
 
-					<!-- <a class="carousel-control-prev" href="carousel" role="button" data-slide="prev">
+					<a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
 						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 						<span class="sr-only">Previous</span>
 					</a>
-					<a class="carousel-control-next" href="carousel" role="button" data-slide="next">
+					<a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
 						<span class="carousel-control-next-icon" aria-hidden="true"></span>
 						<span class="sr-only">Next</span>
-					</a> -->
+					</a>
 			</div>
 			<!-- Carousel End -->
-
 
 			<!-- Feature Start-->
 			<div class="feature wow fadeInUp" data-wow-delay="0.1s">
@@ -164,7 +207,7 @@
 								</div>
 								<div class="feature-text">
 									<h3>Expert Worker</h3>
-									<p>Quiality wise products and well produced services for the consumers.</p>
+									<p>Quality wise products and well produced services for the consumers.</p>
 								</div>
 							</div>
 						</div>
@@ -175,7 +218,7 @@
 								</div>
 								<div class="feature-text">
 									<h3>Quality Work</h3>
-									<p>Extent work that offers a range of Engineering services.</p>
+									<p>Extent work that offers a range of Engineering services. </p>
 								</div>
 							</div>
 						</div>
@@ -186,7 +229,7 @@
 								</div>
 								<div class="feature-text">
 									<h3>24/7 Support</h3>
-									<p>Offer comprehensive post-project support and maintenance to ensure your solutions operate smoothly.</p>
+									<p>offer comprehensive post-project support and maintenance to ensure your solutions operate smoothly.</p>
 								</div>
 							</div>
 						</div>
@@ -225,7 +268,7 @@
 								</div>
 								<div class="about-text">
 									<p>
-										IRAH Solutions was founded in 2021 with a vision to provide innovative and efficient IT and engineering solutions to businesses nationwide. The company was started by a group of technology enthusiasts with a passion for creating impactful software and digital solutions. <br><br> Beginning as a small startup, IRAH Solutions quickly expanded its operations due to its commitment to quality and customer satisfaction. Today, it stands as a reputable player in the industry, known for delivering reliable and cutting-edge solutions.
+									IRAH Solutions was founded in 2021 with a vision to provide innovative and efficient IT and engineering solutions to businesses nationwide. The company was started by a group of technology enthusiasts with a passion for creating impactful software and digital solutions. Beginning as a small startup, IRAH Solutions quickly expanded its operations due to its commitment to quality and customer satisfaction. Today, it stands as a reputable player in the industry, known for delivering reliable and cutting-edge solutions.
 									</p>
 								</div>
 							</div>
@@ -537,7 +580,7 @@
 										What services does Irah Solutions offer?
 										</a>
 									</div>
-									<div id="collapseOne" class="collapse" data-parent="accordion-1">
+									<div id="collapseOne" class="collapse" data-parent="#accordion-1">
 										<div class="card-body">
 										We offer a range of IT and engineering services including construction materials, auxiliary business, electro-mechanical services, and specialized building management systems.
 										</div>
@@ -549,7 +592,7 @@
 										How can I get a quote for my project?
 										</a>
 									</div>
-									<div id="collapseTwo" class="collapse" data-parent="accordion-1">
+									<div id="collapseTwo" class="collapse" data-parent="#accordion-1">
 										<div class="card-body">
 										You can contact us through our website's contact form or email us directly at info@irahsolutions.com. Our team will respond with a detailed quote and project plan.
 										</div>
@@ -561,7 +604,7 @@
 										Do you provide support after project completion?
 										</a>
 									</div>
-									<div id="collapseThree" class="collapse" data-parent="accordion-1">
+									<div id="collapseThree" class="collapse" data-parent="#accordion-1">
 										<div class="card-body">
 										Yes, we offer comprehensive post-project support and maintenance to ensure your solutions operate smoothly.
 										</div>
@@ -573,7 +616,7 @@
 										What industries do you specialize in?
 										</a>
 									</div>
-									<div id="collapseFour" class="collapse" data-parent="accordion-1">
+									<div id="collapseFour" class="collapse" data-parent="#accordion-1">
 										<div class="card-body">
 										We have extensive experience in various industries including construction, real estate, healthcare, finance, retail, and education.
 										</div>
@@ -585,7 +628,7 @@
 										How long does it take to complete a project?
 										</a>
 									</div>
-									<div id="collapseFive" class="collapse" data-parent="accordion-1">
+									<div id="collapseFive" class="collapse" data-parent="#accordion-1">
 										<div class="card-body">
 										The timeline varies depending on the complexity and scope of the project. After an initial consultation, we provide an estimated timeline tailored to your specific needs.
 										</div>
@@ -593,6 +636,11 @@
 								</div>
 							</div>
 						</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 			<!-- FAQs End -->
@@ -621,12 +669,18 @@
 					</div>
 						<div class="col-md-4 col-lg-3">
 							<div class="footer-link">
-								<h2>Services Areas</h2>
-								<a href="">Building Construction</a>
-								<a href="">House Renovation</a>
-								<a href="">Architecture Design</a>
-								<a href="">Interior Design</a>
-								<a href="">Painting</a>
+								<h2>Auxiliary Business</h2>
+								<h2>Electro Mechanical Services</h2>
+
+							<div class="footer-link">
+								<h2>Building Management Systems</h2>
+								<a href="">Access Control</a>
+								<a href="">IP-Based CCTV</a>
+								<a href="">Fire Detection and Alarm Systems (FDAS)</a>
+								<a href="">Structured Cabling</a>
+								<a href="">Fiber to the Home (FTTH)</a>
+								<a href="">Community Antenna Television (CATV)</a>
+								</div>
 							</div>
 						</div>
 						<div class="col-md-4 col-lg-3">
@@ -643,7 +697,7 @@
 				<div class="container copyright">
 					<div class="row">
 						<div class="col-md-6">
-							<p>&copy; 2022 <a href="https://freewebsitecode.com">Irah Solutions and Services Inc.</a>, All Right Reserved.</p>
+							<p>&copy; 2022 <a href="index.php">Irah Solutions and Services Inc.</a>, All Right Reserved.</p>
 						</div>
 						
 						<div class="col-md-6">
@@ -653,7 +707,6 @@
 				</div>
 			</div>
 			<!-- Footer End -->
-
 
 			<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 		</div>
@@ -681,11 +734,11 @@
 					var videoSrc = $(this).data('src');
 					var video = document.getElementById('video');
 					video.src = videoSrc;
-					$('videoModal').modal('show');
+					$('#videoModal').modal('show');
 				});
 
 				// When the modal is closed, pause the video
-				$('videoModal').on('hidden.bs.modal', function (e) {
+				$('#videoModal').on('hidden.bs.modal', function (e) {
 					var video = document.getElementById('video');
 					video.pause();
 				});

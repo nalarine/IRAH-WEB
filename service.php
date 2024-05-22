@@ -294,12 +294,18 @@
 					</div>
 						<div class="col-md-4 col-lg-3">
 							<div class="footer-link">
-								<h2>Services Areas</h2>
-								<a href="">Building Construction</a>
-								<a href="">House Renovation</a>
-								<a href="">Architecture Design</a>
-								<a href="">Interior Design</a>
-								<a href="">Painting</a>
+								<h2>Auxiliary Business</h2>
+								<h2>Electro Mechanical Services</h2>
+
+							<div class="footer-link">
+								<h2>Building Management Systems</h2>
+								<a href="">Access Control</a>
+								<a href="">IP-Based CCTV</a>
+								<a href="">Fire Detection and Alarm Systems (FDAS)</a>
+								<a href="">Structured Cabling</a>
+								<a href="">Fiber to the Home (FTTH)</a>
+								<a href="">Community Antenna Television (CATV)</a>
+								</div>
 							</div>
 						</div>
 						<div class="col-md-4 col-lg-3">

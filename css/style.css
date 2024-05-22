@@ -244,6 +244,7 @@ a:focus {
     border-color: #FFB000;
 }
 
+
 @media (min-width: 992px) {
     .nav-bar {
         padding: 0 75px;
@@ -290,52 +291,51 @@ a:focus {
 /*******************************/
 /******** Carousel CSS *********/
 /*******************************/
+/* Updated CSS */
 .static-overlay {
     position: absolute;
-    top: 35%;
-    left: 25%;
-    transform: translate(-50%, -50%);
-    text-align: left;
+    top: 10%; /* Adjust top positioning */
+    left: 30%;
+    transform: translateX(-50%); /* Only translate horizontally */
+    /* text-align: center; Center align text */
     z-index: 10; /* Ensure the overlay is on top of the carousel */
+    text-align: start;
+    justify-items: left;
 }
 
 .static-overlay h1 {
-    color: #FFB000 ;
-    font-weight: bolder;
-    font-size: 60px;
-    text-shadow: 
-    -1px -1px 0 #fff,  
-    1px -1px 0 #fff,
-    -1px 1px 0 #fff,
-    1px 1px 0 #fff;  
+    color: #FFB000;
+    font-weight: bold;
+    font-size: 4vw;
+    text-shadow: -1px -1px 0 #fff,  
+        1px -1px 0 #fff,
+        -1px 1px 0 #fff,
+        1px 1px 0 #fff;
 }
 
 .static-text {
-    font-size: 24px;
+    font-size: 2vw;
     color: white;
-    /* Add any other styles you need */
 }
 
 .sub-text {
     color: #095c1d;
-    font-size: 25px;
+    font-size: 2.5vw;
     font-weight: bold;
-    text-shadow: 
-    -1px -1px 0 #fff,  
-    1px -1px 0 #fff,
-    -1px 1px 0 #fff,
-    1px 1px 0 #fff;  
+    text-shadow: -1px -1px 0 #fff,  
+        1px -1px 0 #fff,
+        -1px 1px 0 #fff,
+        1px 1px 0 #fff;
 }
 
 .carousel-container {
     position: relative; /* Set position relative to contain absolute positioned elements */
+    margin-top: 0; /* Remove top margin */
 }
 
 .carousel {
     position: relative;
     width: 100%;
-    height: calc(100vh - 170px);
-    min-height: 400px;
     margin: 0 auto;
     text-align: center;
     overflow: hidden;
@@ -350,8 +350,7 @@ a:focus {
 
 .carousel .carousel-item img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
 }
 
 .carousel .carousel-item::after {
@@ -373,33 +372,33 @@ a:focus {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: calc(100vh - 170px);
-    min-height: 400px;
+    height: 100%; /* Change to 100% */
+    padding: 0; /* Remove padding */
 }
 
 .carousel .carousel-caption p {
     color: #ffffff;
-    font-size: 30px;
-    margin-bottom: 15px;
-    letter-spacing: 1px;
+    font-size: 2.5vw;
+    margin-bottom: 1.5vw;
+    letter-spacing: 0.1vw;
 }
 
 .carousel .carousel-caption h1 {
     color: #ffffff;
-    font-size: 60px;
-    font-weight: 700;
-    margin-bottom: 35px;
+    font-size: 6vw;
+    font-weight: bold;
+    margin-bottom: 3.5vw;
 }
 
 .carousel .carousel-caption .btn {
-    padding: 15px 35px;
-    font-size: 18px;
+    padding: 1.5vw 3.5vw;
+    font-size: 1.8vw;
     font-weight: 500;
-    letter-spacing: 1px;
+    letter-spacing: 0.1vw;
     text-transform: uppercase;
     color: #ffffff;
     background: transparent;
-    border: 2px solid #ffffff;
+    border: 0.2vw solid #ffffff;
     border-radius: 0;
     transition: .3s;
 }
@@ -411,45 +410,52 @@ a:focus {
 }
 
 @media (max-width: 767.98px) {
-    .carousel .carousel-caption h1 {
-        font-size: 40px;
-        font-weight: 700;
+    .static-overlay {
+        top: 5%; /* Adjust top positioning */
     }
     
+    .carousel .carousel-caption h1 {
+        font-size: 4vw;
+        font-weight: bold;
+    }
+
     .carousel .carousel-caption p {
-        font-size: 20px;
+        font-size: 2vw;
+        margin-bottom: 1vw;
+        letter-spacing: 0.05vw;
     }
     
     .carousel .carousel-caption .btn {
-        padding: 12px 30px;
-        font-size: 18px;
-        font-weight: 500;
-        letter-spacing: 0;
+        padding: 1vw 2.5vw;
+        font-size: 1.2vw;
+        letter-spacing: 0.05vw;
     }
 }
 
 @media (max-width: 575.98px) {
     .carousel .carousel-caption h1 {
-        font-size: 30px;
-        font-weight: 500;
+        font-size: 3vw;
+        font-weight: bold;
     }
     
     .carousel .carousel-caption p {
-        font-size: 16px;
+        font-size: 1.5vw;
+        margin-bottom: 0.8vw;
+        letter-spacing: 0.03vw;
     }
     
     .carousel .carousel-caption .btn {
-        padding: 10px 25px;
-        font-size: 16px;
-        font-weight: 400;
-        letter-spacing: 0;
+        padding: 0.8vw 2vw;
+        font-size: 1vw;
+        letter-spacing: 0.03vw;
     }
 }
 
 .carousel .animated {
-    -webkit-animation-duration: 1.5s;
-    animation-duration: 1.5s;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
 }
+
 
 /*******************************/
 /******* Page Header CSS *******/
@@ -1155,25 +1161,18 @@ a:focus {
 
 .faqs .row {
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
 }
-
-/* .faqs .row::after {
-    position: absolute;
-    content: "";
-    width: 1px;
-    height: 100%;
-    top: 0;
-    left: calc(50% - .5px);
-    background: #FFB000;
-} */
 
 .faqs #accordion-1 {
     padding-right: 15px;
-    width: 200%;
+    width: calc(50% - 15px);
 }
 
 .faqs #accordion-2 {
     padding-left: 15px;
+    width: calc(50% - 15px);
 }
 
 @media(max-width: 767.98px) {
@@ -1183,6 +1182,7 @@ a:focus {
     
     .faqs #accordion-1,
     .faqs #accordion-2 {
+        width: 100%;
         padding: 0;
     }
     
@@ -1223,7 +1223,7 @@ a:focus {
 }
 
 .faqs .card-header [data-toggle="collapse"]:after {
-    font-family: 'font Awesome 5 Free';
+    font-family: 'Font Awesome 5 Free';
     content: "\f067";
     float: right;
     color: #FFB000;
@@ -1233,7 +1233,7 @@ a:focus {
 }
 
 .faqs .card-header [data-toggle="collapse"][aria-expanded="true"]:after {
-    font-family: 'font Awesome 5 Free';
+    font-family: 'Font Awesome 5 Free';
     content: "\f068";
     float: right;
     color: #030f27;
@@ -1248,6 +1248,19 @@ a:focus {
     background: #ffffff;
     border: 1px solid rgba(0, 0, 0, .1);
     border-top: none;
+}
+
+@media (max-width: 575.98px) {
+    .faqs .card-header a {
+        padding: 10px 15px;
+        font-size: 14px;
+        line-height: 30px;
+    }
+    
+    .faqs .card-body {
+        padding: 15px 20px;
+        font-size: 14px;
+    }
 }
 
 /*******************************/
@@ -1961,7 +1974,7 @@ a:focus {
     position: relative;
     margin-top: 25px;
     padding-top: 70px;
-    background: #ffb000 ;
+    background: #ffb000;
     color: #ffffff;
 }
 

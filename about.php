@@ -126,7 +126,7 @@
 
 			<!-- ABOUT US CONTENT -->
 			<div class="background-image">
-			<img src="aboutirah.png" alt="" style="width: 100%; height: auto; position: relative;">
+			<img src="aboutirah.png" alt="" style="width: 100%; height: 300%; position: relative;">
 			<div class="overlay"></div>
 			<div class="text-container left-text">
 				<h1>ABOUT US</h1>
@@ -206,12 +206,18 @@
 					</div>
 						<div class="col-md-4 col-lg-3">
 							<div class="footer-link">
-								<h2>Services Areas</h2>
-								<a href="">Building Construction</a>
-								<a href="">House Renovation</a>
-								<a href="">Architecture Design</a>
-								<a href="">Interior Design</a>
-								<a href="">Painting</a>
+								<h2>Auxiliary Business</h2>
+								<h2>Electro Mechanical Services</h2>
+
+							<div class="footer-link">
+								<h2>Building Management Systems</h2>
+								<a href="">Access Control</a>
+								<a href="">IP-Based CCTV</a>
+								<a href="">Fire Detection and Alarm Systems (FDAS)</a>
+								<a href="">Structured Cabling</a>
+								<a href="">Fiber to the Home (FTTH)</a>
+								<a href="">Community Antenna Television (CATV)</a>
+								</div>
 							</div>
 						</div>
 						<div class="col-md-4 col-lg-3">
@@ -228,7 +234,7 @@
 				<div class="container copyright">
 					<div class="row">
 						<div class="col-md-6">
-							<p>&copy; 2022 <a href="https://freewebsitecode.com">Irah Solutions and Services Inc.</a>, All Right Reserved.</p>
+							<p>&copy; 2022 <a href="index.php">Irah Solutions and Services Inc.</a>, All Right Reserved.</p>
 						</div>
 						
 						<div class="col-md-6">

@@ -377,6 +377,76 @@ a:focus {
 /*******************************/
 /********** About CSS **********/
 /*******************************/
+.about-us {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.text-container {
+    flex: 1;
+    min-width: 300px;
+    margin: 10px;
+}
+
+.left-text h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.left-text h2 {
+    font-size: 1.5em;
+    margin: 10px 0 0 0;
+}
+
+.right-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.typing-animation {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: 10px 0;
+}
+
+.background-image img {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .about-us {
+        display: none; /* Hides the "ABOUT US" section on smaller screens */
+    }
+    
+    .background-image img {
+        width: 100%; /* Adjust the width as needed */
+    }
+
+    .text-container {
+        min-width: 80%;
+        min-height: 200%;
+    }
+
+    .left-text {
+        display: none;
+    }
+    
+    .right-text {
+        text-align: center;
+        margin-right: -15%;
+    }
+
+    .right-text {
+        order: 0; /* Keeps the text in the same position */
+    }
+}
+
+
 .abt-container {
     position: relative;
     display: flex;

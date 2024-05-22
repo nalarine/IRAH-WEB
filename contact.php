@@ -137,7 +137,7 @@
               <div class="aos-item__inner">
                 <div class="bg-light hvr-shutter-out-horizontal p-3">
                   <div class="d-flex justify-content-start">
-                    <img src="gmail.png" style="height: 25px; width: 25px; margin-right: 8px">
+                    <img src="gmail.png" style="height: 15px; width: 15px; margin-right: 8px; margin-top: 5px;">
                     <span class="h5">Email</span>
                   </div>
                   <span>irah@irahsolutions.com</span>
@@ -148,7 +148,7 @@
               <div class="aos-item__inner">
                 <div class="bg-light hvr-shutter-out-horizontals p-3">
                   <div class="d-flex justify-content-start">
-                    <img src="phone.png" style="height: 25px; width: 25px; margin-right: 10px">
+                    <img src="phone.png" style="height: 15px; width: 15px; margin-right: 10px; margin-top: 5px;">
                     <span class="h5">Phone</span>
                   </div>
                   <span>02-872-23581, 0908-8994330</span>
@@ -162,7 +162,7 @@
             <div class="aos-item__inner">
             <div class="bg-light hvr-shutter-out-horizontal d-block p-3">
             <div class="d-flex justify-content-start">
-                <img src="location.png" style="height: 35px; width: 35px; margin-right: 2px">
+                <img src="location.png" style="height: 20px; width: 20px; margin-right: 2px; margin-top: 5px;">
                 <span class="h5">Office location</span>
             </div>
             <span>Unit 201 AC Bldg Sct. Rallos st, corner Sct. Ybardolaza, Quezon City, 1103 Metro Manila</span>
@@ -179,37 +179,30 @@
         <!-- Contact Form Block -->
         <div class="col-xl-6 order-xl-2">
                         <div class="contact-form-container bg-light rounded">
-                            <h2 class="pb-4">Leave a message</h2>
-                            <form id="contact-form">
-                                <div class="row g-4">
-                                    <div class="col-md-6 mb-3">
-                                        <input type="text" class="form-control" id="fname" name="fname" placeholder="First Name" required>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <input type="text" class="form-control" id="lname" name="lname" placeholder="Last Name" required>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" required>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone Number" required>
-                                    </div>
-                                </div>
-                                <!-- <div class="mb-3">
-                                    <select class="form-select" id="country" name="country" aria-label="Country" required>
-                                        <option value="">Select Country</option>
-                                        <option value="USA">USA</option>
-                                        <option value="Non USA">Non USA</option>
-                                    </select>
-                                </div> -->
-                                <div class="mb-3">
-                                    <textarea class="form-control" id="message" name="message" rows="10" placeholder="Your Message" required></textarea>
-                                </div>
-								
-                                <button type="submit" class="btn btn-dark">Send Message</button>
-								<button class="sabrina" onclick="window.open('https://www.facebook.com/profile.php?id=100064757267975', '_blank')">Message Us on Messenger</button>
+						<h2 class="pb-2">Drop us a Line</h2>
+							<p>We'd love to hear from you! Fill out the form below and we'll get back to you as soon as possible.</p>
+							<form id="contact-form" action="send_email.php" method="POST">
+							<div class="row g-4">
+								<div class="col-md-6 mb-3">
+									<input type="text" class="form-control" id="fname" name="fname" placeholder="First Name" required>
+								</div>
+								<div class="col-md-6 mb-3">
+									<input type="text" class="form-control" id="lname" name="lname" placeholder="Last Name" required>
+								</div>
+								<div class="col-md-6 mb-3">
+									<input type="email" class="form-control" id="email" name="email" placeholder="Email Address" required>
+								</div>
+								<div class="col-md-6 mb-3">
+									<input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone Number" required>
+								</div>
+							</div>
+							<div class="mb-3">
+								<textarea class="form-control" id="message" name="message" rows="10" placeholder="Your Message" required></textarea>
+							</div>
+							<button type="submit" class="btn btn-dark">Send Message</button>
+							<button class="sabrina" onclick="window.open('https://www.facebook.com/profile.php?id=100064757267975', '_blank')">Message Us on Messenger</button>
+						</form>
 
-                            </form>
 							<br>
 							
 
@@ -221,8 +214,11 @@
 
 			<!-- Footer Start -->
 			<div class="footer wow fadeInUp" data-wow-delay="0.3s">
+  <!-- Footer Start -->
+  <div class="footer wow fadeInUp" data-wow-delay="0.3s">
 				<div class="container">
 					<div class="row">
+					<div class="col-md-4 col-lg-3"> <!-- This column is for the logo -->
 					<div class="col-md-4 col-lg-3"> <!-- This column is for the logo -->
 						<div class="footer-logo">
 							<img src="img/irahborder.png" alt="Logo" class="footer-logo-img">
@@ -235,6 +231,7 @@
 							<p><i class="fa fa-phone-alt"></i>02-872-23581</p>
 							<p><i class="fa fa-phone-alt"></i>0908-8994330</p>
 							<p><i class="fa fa-envelope"></i>irah@irahsolutions.com</p>
+							<p><i class="fa fa-envelope"></i>irahsolutions@gmail.com</p>
 							<div class="footer-social">
 								<a href="https://www.facebook.com/profile.php?id=100064757267975"><i class="fab fa-facebook-f"></i></a>
 								<a href="https://www.youtube.com/@ISASITV"><i class="fab fa-youtube"></i></a>
@@ -243,12 +240,18 @@
 					</div>
 						<div class="col-md-4 col-lg-3">
 							<div class="footer-link">
-								<h2>Services Areas</h2>
-								<a href="">Building Construction</a>
-								<a href="">House Renovation</a>
-								<a href="">Architecture Design</a>
-								<a href="">Interior Design</a>
-								<a href="">Painting</a>
+								<h2>Auxiliary Business</h2>
+								<h2>Electro Mechanical Services</h2>
+
+							<div class="footer-link">
+								<h2>Building Management Systems</h2>
+								<a href="">Access Control</a>
+								<a href="">IP-Based CCTV</a>
+								<a href="">Fire Detection and Alarm Systems (FDAS)</a>
+								<a href="">Structured Cabling</a>
+								<a href="">Fiber to the Home (FTTH)</a>
+								<a href="">Community Antenna Television (CATV)</a>
+								</div>
 							</div>
 						</div>
 						<div class="col-md-4 col-lg-3">
@@ -291,6 +294,17 @@
 		<script src="lib/waypoints/waypoints.min.js"></script>
 		<script src="lib/counterup/counterup.min.js"></script>
 		<script src="lib/slick/slick.min.js"></script>
+			    <!-- JavaScript Libraries -->
+				<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/slick/slick.min.js"></script>
 
 		<!-- Template Javascript -->
 		<script src="js/main.js"></script>
